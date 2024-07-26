@@ -1,6 +1,6 @@
 import axios from './root.service.js';
 import { showSuccessAlert, showErrorAlert } from '../helpers/alert.js';
-
+// Holaaaa
 export async function postAsistencia(data) {
     try {
         const response = await axios.post('/asistente/registrarAsistencia', data);
